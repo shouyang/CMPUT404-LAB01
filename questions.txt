@@ -13,14 +13,21 @@ The requests version is different between the two as one terminal is using the l
 This encapsulates the running environment of our python script and allows us to freeze our requirements.
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
-
+301, http://www.google.com/
 
 Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
-
+301, Using curl -iL the page redirects to the output by http://www.google.com/teapot? generating the status code 418
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+The response contained a new filled section regarding form contents from my post command. The request type had changed from GET to POST.
 
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
 
 Question 8: What is the raw URL to your Python script on GitHub?
+
 
 
