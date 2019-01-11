@@ -1,0 +1,26 @@
+Question 1: What is your GitHub URL?
+
+https://github.com/shouyang
+
+Question 2: What version is the requests library installed on the system?
+2.18.4
+
+Question 3: What version is the requests library installed in the virtualenv?
+2.21.0
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+The requests version is different between the two as one terminal is using the local virtualenv instance of python versus the system one.
+This encapsulates the running environment of our python script and allows us to freeze our requirements.
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+
+Question 8: What is the raw URL to your Python script on GitHub?
+
+
