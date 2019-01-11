@@ -19,7 +19,9 @@ Question 6: What status code is returned for http://google.com/teapot? Is it the
 301, Using curl -iL the page redirects to the output by http://www.google.com/teapot? generating the status code 418
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
-The response contained a new filled section regarding form contents from my post command. The request type had changed from GET to POST.
+The response contained a new filled section regarding form contents from my post command. 
+The request method had changed from GET to POST. 
+There are some misc tags changed by the length of the inputs and the POST type change.
 
 <H3>Form Contents:</H3>
 <DL>
@@ -28,6 +30,6 @@ The response contained a new filled section regarding form contents from my post
 </DL>
 
 Question 8: What is the raw URL to your Python script on GitHub?
-
+https://raw.githubusercontent.com/shouyang/CMPUT404-LAB01/master/get.py
 
 
